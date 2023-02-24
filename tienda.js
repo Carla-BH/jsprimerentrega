@@ -4,7 +4,6 @@ function datosDelComprador(){
     let dni = prompt("Ingresa tu DNI")
     let direccionDeEntrega = prompt("Ingresa la direccion de entrega")    
 }
-window.addEventListener("load",function(){
 function eleccionProducto(){
     let sumaTotal = 0;
     let seguirComprando = true
@@ -60,4 +59,4 @@ if(seleccionSeguirComprando !== 1){
     seguirComprando = false;
 }
 
-})  
+
