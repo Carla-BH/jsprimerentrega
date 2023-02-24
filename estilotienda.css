@@ -1,0 +1,95 @@
+header{
+    display: flex;
+    min-height: 70px;
+    background-color: rgb(53, 114, 53);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo-p{
+        align-items: center;
+}
+.titulo-principal{
+    text-align: center;
+    color: azure;
+}
+
+ul {
+    list-style-type: none;
+}
+.nav-inicio li{
+    list-style: none;    
+}
+li {
+    display: inline;
+}
+.nav-palabras{
+    text-decoration: none;
+    font-size: 25px;
+    color:azure;
+    padding: 10px;
+    }
+    .nav-palabras:hover{
+        color:rgba(6, 6, 6, 0.164);
+    }
+/*-------------------------main---------------------------*/
+.caja-main{
+    text-align: center;
+    padding: 20px;
+    background-image: linear-gradient(to bottom, #b70131, #c55841, #d18a63, #dbb693, #e9dfcf);
+}
+.titulo-tienda{
+    text-decoration: underline;
+    color: antiquewhite;
+}
+.foto-tienda{
+    display: flex;
+    border-radius: 50px;
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+}
+.section-tienda{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: antiquewhite;
+}
+.p-tienda{
+    background-color: rgba(53, 114, 53, 0.323);
+    height: 30px;
+    border-radius: 15px;
+    text-align: center;
+    text-decoration: underline;
+    }
+.caja-foto{
+    padding: 20px 30px;
+}
+.section-carrito{
+    background-color: rgba(53, 114, 53, 0.164);
+    height: 30px;
+    border-radius: 30px;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+}
+footer{
+    background-color: rgb(53, 114, 53);    
+    height: 60px;
+    width: 100%;
+}
+/*----------------------------footer---------------------------*/
+.caja-footer{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: auto;
+}
+
+.footer-ig {
+    height: 41px;
+}
+
+.footer-fb {
+    height: 60px;
+}
